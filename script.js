@@ -1,5 +1,22 @@
 //complete this code
-class Rectangle {}
+class Rectangle {
+	constructor (height,width){
+		this.height = height;
+		this.width= width;
+	}
+	
+	get(height){
+		return this.height
+	}
+	get(width){
+		return this.width
+	}
+
+	getArea(){
+		return this.height*this.width
+	}
+	
+}
 
 class Square extends Animal {}
 
